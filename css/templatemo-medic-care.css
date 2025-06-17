@@ -207,7 +207,6 @@ strong {
 .animated-item {
   display: block;
   opacity: 0;
-  /* overflow: hidden; */
   position: absolute;
   top: 0;
   right: 0;
@@ -701,7 +700,9 @@ strong {
 /*---------------------------------------
   BOOKING FORM            
 -----------------------------------------*/
-
+.booking-form{
+  margin-top: 4rem;
+}
 .booking-form .form-control {
   background: transparent;
   border-radius: 0;
